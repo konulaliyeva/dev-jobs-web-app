@@ -1,0 +1,67 @@
+.job-item-container {
+  width: 350px;
+  height: 228px;
+  border-radius: 6px;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #fff;
+  margin-top: 100px;
+  transform: translateX(60px);
+}
+.job-item-img {
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+  padding: 10px 5px;
+  position: relative;
+  bottom: 25px;
+  left: 10px;
+}
+
+.job-item-time {
+  display: flex;
+}
+
+.job-item-time {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6e8098;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+}
+.dot {
+  font-size: 10px;
+  background: #6e8098;
+}
+
+.job-item-title h3 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #19202d;
+}
+
+.job-item-title p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6e8098;
+}
+
+.link a {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5964e0;
+  text-decoration: none;
+}
