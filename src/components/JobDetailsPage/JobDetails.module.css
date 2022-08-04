@@ -1,0 +1,145 @@
+.wrapper {
+  padding-left: 355px;
+  padding-right: 355px;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  background-color: #f2f2f2;
+}
+.content-container {
+  background-color: #fff;
+  padding: 48px;
+}
+.content-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #19202d;
+}
+.location {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5964e0;
+}
+.content-time {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6e8098;
+}
+
+.about-job {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6e8098;
+}
+
+.section-title {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #19202d;
+}
+
+.header-container {
+  padding-left: 355px;
+  padding-right: 355px;
+  background-color: #f2f2f2;
+}
+
+.header-content {
+  position: absolute;
+  top: 10%;
+  width: 730px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.company-info {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  height: 100%;
+}
+
+.company-logo {
+  background-color: orange;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company-img {
+  width: 81px;
+  height: 23px;
+}
+.company-title {
+  padding: 42px 0px;
+}
+.company-title h4 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #19202d;
+}
+.company-title a {
+  text-decoration: none;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6e8098;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #fff;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 355px;
+  padding-right: 355px;
+  padding-top: 25px;
+  padding-bottom: 23px;
+}
+
+.position h4 {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #19202d;
+}
+.position p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6e8098;
+}

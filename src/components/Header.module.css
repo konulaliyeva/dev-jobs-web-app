@@ -1,0 +1,108 @@
+.header-container {
+  background: #5964e0;
+  border-radius: 0px 0px 100px 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  padding: 40px 100px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.header-linearity-1 {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.08;
+  border-radius: 41px;
+  transform: rotate(-55deg);
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  left: 30%;
+  top: calc(50% - 457px / 2 - 160px);
+}
+
+.header-linearity-2 {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.08;
+  border-radius: 41px;
+  transform: rotate(-35deg);
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  right: -5%;
+  top: calc(50% - 457px / 2 + 90.48px);
+}
+
+.header-linearity-3 {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.08;
+  border-radius: 41px;
+  transform: rotate(50deg);
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 5%;
+}
+.search-container {
+  background-color: #fff;
+  border-radius: 6px;
+  width: 1145px;
+  height: 80px;
+  position: absolute;
+  left: 10%;
+  top: 12%;
+}
+
+.search-content {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #19202d;
+  mix-blend-mode: normal;
+
+}
+.search-content input {
+  border: none;
+  margin-left: 20px;
+}
+.check-filter {
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #6e8098;
+  height: 80px;
+  width: 400px;
+
+}
+.grid-item {
+    border-right: 1px solid #6e8098;
+    height: 80px;
+    width: 400px;
+
+  
+}
+
+
+.grid-item input, .grid-item img {
+    transform: translate(30px, 20px);
+}
+.grid-item input {
+    width: 300px;
+    outline: none;
+
+}

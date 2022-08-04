@@ -12,7 +12,7 @@ function HomePageBody(){
     };
     fetchCompanyData();
   }, []);
-  console.log(companyData);
+
     return (
         <JobItem companyData = {companyData}/>
     )
