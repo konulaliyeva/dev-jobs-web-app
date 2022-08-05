@@ -1,21 +1,16 @@
 import React from "react";
 import styles from "./JobItem.module.css";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 function JobItem({ companyData }) {
-  const handleClickButton = (id) =>{
-    let vacancy = companyData.find(vacancy=>vacancy.id===id);
-    console.log(vacancy)
-  }
+ 
   return (
     <>
       <div className="container">
         <div className="row" >
           {companyData.map((data) => {
-            console.log(data);
             return (
-              <Link Link to="/vacancy" 
+              <Link to={`/vacancy/${data.id}`}
                 key={data.id}
-                onClick={()=>handleClickButton(data.id)}
                 style={{textDecoration:'none'}}
                 className={
                   styles["job-item-container"] + " col-sm-12 col-md-4 mb-2 mx-4"
@@ -37,7 +32,7 @@ function JobItem({ companyData }) {
                   <p>{data.company}</p>
                 </div>
                 <div className={styles["link"]}>
-                  <a href="#">{data.location}</a>
+                  <p href="#">{data.location}</p>
                 </div>
               </Link>
             );

@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
-import HeaderSearchForm from "./HeaderSearchForm";
 import SwitchButton from "./SwitchButton";
-
 function Header(){
     return (
         

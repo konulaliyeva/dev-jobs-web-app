@@ -1,6 +1,6 @@
 import React from "react";
-import { Button } from "./Button";
-import styles from "./Header.module.css";
+import { Button } from "../Utilities/Button";
+import styles from "../Utilities/Header.module.css";
 
 function HeaderSearchForm() {
   return (

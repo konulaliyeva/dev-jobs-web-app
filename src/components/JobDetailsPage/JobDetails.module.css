@@ -78,12 +78,11 @@
 .company-info {
   display: flex;
   justify-content: space-between;
-  width: 320px;
+  width: 350px;
   height: 100%;
 }
 
 .company-logo {
-  background-color: orange;
   width: 150px;
   display: flex;
   justify-content: center;
@@ -95,6 +94,7 @@
 }
 .company-title {
   padding: 42px 0px;
+  margin-left: 30px;
 }
 .company-title h4 {
   font-family: "Kumbh Sans";
