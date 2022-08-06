@@ -3,12 +3,12 @@ import { Button } from "./components/Utilities/Button";
 import Header from "./components/Utilities/Header";
 import HeaderSearchForm from "./components/HomePage/HeaderSearchForm";
 import JobItem from "./components/HomePage/JobItem";
-function HomePage() {
+function HomePage({toggleTheme, theme}) {
   const [companyData, setCompanyData] = useState([]);
-  const [state, setState] = React.useState({
+  const [state, setState] = useState({
     title: "",
     location:''
-  })
+  }) 
 
   useEffect(() => {
     const fetchCompanyData = async () => {
@@ -35,7 +35,7 @@ function HomePage() {
 
   return (
     <div className="App">
-      <Header />
+      <Header toggleTheme={toggleTheme} theme={theme} />
       <HeaderSearchForm handleSearchInput = {handleSearchInput} state={state} />
       <JobItem companyData={companyData}/>
       <div className="mb-5 mt-5">

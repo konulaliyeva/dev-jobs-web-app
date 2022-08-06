@@ -1,15 +1,18 @@
 import React from "react";
 import styles from "./Header.module.css";
 import SwitchButton from "./SwitchButton";
-function Header(){
+
+function Header({toggleTheme, theme}){
+   
     return (
         
-        <div className={styles['header-container']}>
+    
+            <div className={styles['header-container']} id={theme}>
             <div className={styles['header-linearity-1']}></div>
             <div className={styles['header-linearity-2']}></div>
             <div className={styles['header-content']}>
                 <p>devjobs</p>
-                <SwitchButton />
+                <SwitchButton toggleTheme={toggleTheme} theme={theme}/>
             </div>
             <div className={styles['header-linearity-3']}></div>
 

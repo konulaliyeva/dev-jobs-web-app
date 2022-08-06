@@ -1,12 +1,15 @@
-import React from "react";
-import styles from "./SwitchButton.module.css";
+import React, { useEffect, useState } from "react";
+import "./SwitchButton.css";
+import ReactSwitch from "react-switch";
+function SwitchButton({toggleTheme, theme}) {
+ 
 
-function SwitchButton() {
   return (
-    <div className={styles["switch-btn-container"]}>
+    <div className="switch-btn-container">
       <img className="mx-2" src="../desktop/icon-sun.svg" alt="" />
-      
-      <img src="../desktop/icon-moon.svg" alt="" />
+      <ReactSwitch onChange={toggleTheme} checked={theme==="dark"}/>
+
+      <img className="mx-2" src="../desktop/icon-moon.svg" alt="" />
     </div>
   );
 }

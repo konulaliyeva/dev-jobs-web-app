@@ -1,3 +1,10 @@
+#light{
+  background: #5964e0;
+}
+#dark {
+  background: #19202d;
+}
+
 .header-container {
   background: #5964e0;
   border-radius: 0px 0px 100px 0px;
