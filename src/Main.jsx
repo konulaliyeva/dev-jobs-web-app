@@ -11,7 +11,7 @@ function Main() {
   };
 
   return (
-    <ThemeContext.Provider>
+    <ThemeContext.Provider value={{theme, toggleTheme}}>
       <Routes>
         <Route
           path=""
