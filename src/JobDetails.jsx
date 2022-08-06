@@ -4,6 +4,7 @@ import JobDetailsBody from "./components/JobDetailsPage/JobDetailsBody";
 import JobDetailsFooter from "./components/JobDetailsPage/JobDetailsFooter";
 import JobDetailsHeader from "./components/JobDetailsPage/JobDetailsHeader";
 import { useParams } from "react-router-dom";
+import { Button } from "./components/Utilities/Button";
 
 function JobDetails() {
   const [vacancy, setVacancy] = useState([]);
@@ -25,10 +26,10 @@ function JobDetails() {
       {
           job && <JobDetailsBody  job={job} />
       }
+
       {
           job && <JobDetailsFooter  job={job} />
       }
-      
     </>
   );
 }
